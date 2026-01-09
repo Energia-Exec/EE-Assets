@@ -1,1 +1,22 @@
+task.spawn(function()
+	local sg = game:GetService("StarterGui")
+	local function notify(text)
+		while true do
+			if pcall(sg.SetCore, sg, "SendNotification", { Title = "Hey!", Text = text }) then
+				break		
+			end
+			
+			task.wait()
+		end
+		
+		task.wait(5)
+	end
+	
+	notify("Energia is on early development state and can have bugs")
+	notify("Currently the most know one is executor hallucinations (executing scripts multiplie times)")
+	notify("Im trying my best to fix these. If you know a solution, DM me on discord: @cherry_peashooter")
+	notify("Also you cant rejoin roblox games and I also dont know how to fix that. If you know how to, DM me")
+	notify("Have fun with 67 UNC and fastest execution speed\n;)")
+end)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/VSCode/refs/heads/main/VSCode.lua"))()
