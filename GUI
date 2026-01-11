@@ -13,8 +13,6 @@ task.spawn(function()
 	end
 	
 	notify("Energia is on early development state and can have bugs")
-	notify("Currently the most know one is executor hallucinations (executing scripts multiplie times)")
-	notify("Im trying my best to fix these. If you know a solution, DM me on discord: @cherry_peashooter")
 	notify("Also you cant rejoin roblox games and I also dont know how to fix that. If you know how to, DM me")
 	notify("Have fun with 67 UNC and fastest execution speed\n;)")
 end)
